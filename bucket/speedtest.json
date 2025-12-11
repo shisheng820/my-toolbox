@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "使用腾讯王者荣耀 CDN 进行网络测速的命令行工具",
   "homepage": "https://github.com/shisheng820/my-toolbox",
   "license": "MIT",
@@ -10,7 +10,12 @@
     }
   },
   "extract_dir": "my-toolbox-main",
-  "bin": "bin/speedtest.js",
+  "bin": [
+    [
+      "bin/speedtest.js",
+      "speedtest"
+    ]
+  ],
   "pre_install": [
     "if (!(Test-Path \"$dir\\node_modules\")) {",
     "    Push-Location $dir",
