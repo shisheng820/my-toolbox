@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "description": "使用腾讯王者荣耀 CDN 进行网络测速的命令行工具",
+  "homepage": "https://github.com/[your-username]/my-toolbox",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/[your-username]/my-toolbox/archive/refs/heads/main.zip",
+      "hash": ""
+    }
+  },
+  "extract_dir": "my-toolbox-main",
+  "bin": "bin/index.js",
+  "pre_install": [
+    "if (!(Test-Path \"$dir\\node_modules\")) {",
+    "    Push-Location $dir",
+    "    npm install --production",
+    "    Pop-Location",
+    "}"
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/[your-username]/my-toolbox/archive/refs/heads/main.zip"
+      }
+    }
+  }
+}
