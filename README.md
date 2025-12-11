@@ -20,7 +20,7 @@
 
 ```powershell
 # 添加存储桶
-scoop bucket add my-toolbox https://github.com/[your-username]/my-toolbox.git
+scoop bucket add my-toolbox https://github.com/shisheng820/my-toolbox.git
 
 # 安装工具
 scoop install my-toolbox/speedtest
@@ -45,14 +45,17 @@ npm start speedtest
 
 ```bash
 # 默认测试 15 秒
-mybox speedtest
-
-# 或使用别名
-mybox st
+speedtest
 
 # 自定义测试时长（秒）
-mybox speedtest -t 30
-mybox speedtest --time 30
+speedtest -t 30
+speedtest --time 30
+```
+
+如果你想使用工具箱命令：
+```bash
+mybox speedtest
+mybox st
 ```
 
 ## 开发

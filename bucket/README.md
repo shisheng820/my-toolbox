@@ -7,7 +7,7 @@
 ### 添加存储桶
 
 ```powershell
-scoop bucket add my-toolbox https://github.com/[your-username]/my-toolbox.git
+scoop bucket add my-toolbox https://github.com/shisheng820/my-toolbox.git
 ```
 
 ### 安装应用
@@ -29,8 +29,8 @@ scoop install my-toolbox/speedtest
 
 **使用：**
 ```bash
-mybox speedtest
-mybox st -t 30
+speedtest
+speedtest -t 30
 ```
 
 ## 更新应用
