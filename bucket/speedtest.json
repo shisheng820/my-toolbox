@@ -13,7 +13,7 @@
   "bin": [
     [
       "bin/speedtest.js",
-      "speedtest"
+      "wz"
     ]
   ],
   "pre_install": [

@@ -45,11 +45,11 @@ npm start speedtest
 
 ```bash
 # 默认测试 15 秒
-speedtest
+wz
 
 # 自定义测试时长（秒）
-speedtest -t 30
-speedtest --time 30
+wz -t 30
+wz --time 30
 ```
 
 如果你想使用工具箱命令：

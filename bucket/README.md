@@ -29,8 +29,8 @@ scoop install my-toolbox/speedtest
 
 **使用：**
 ```bash
-speedtest
-speedtest -t 30
+wz
+wz -t 30
 ```
 
 ## 更新应用

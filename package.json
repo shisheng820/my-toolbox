@@ -6,7 +6,7 @@
   "type": "module",
   "bin": {
     "mybox": "./bin/index.js",
-    "speedtest": "./bin/speedtest.js"
+    "wz": "./bin/speedtest.js"
   },
   "scripts": {
     "start": "node bin/index.js"
